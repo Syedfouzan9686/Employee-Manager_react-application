@@ -1,0 +1,45 @@
+
+.heading {
+    border: solid 1px;
+    border-width: 100%;
+    font-size: 30px;
+    border-top: 10px;
+    border-radius: 10px;
+    background-color: rgb(94, 43, 234);
+    padding-top: 2px;
+    color: white;
+}
+
+button {
+    border: none;
+}
+
+.delete-symbol {
+    color: red; /* Change color to red */
+    font-size: 20px; /* Adjust size to 20 pixels */
+    
+}
+.createbtn {
+    background-color: #0086d6;
+    width:10%;
+    height:35px;
+    border-radius: 4px;
+    font-size: large;
+    color: rgb(247, 242, 242);
+}
+
+.createbtndiv {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 30px;
+    gap:5px
+}
+.norecord_div {
+   padding-top:10%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

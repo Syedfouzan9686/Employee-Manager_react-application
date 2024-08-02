@@ -1,0 +1,41 @@
+
+.create_overlay{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background: rgba(0, 0, 0, 0.7); 
+    z-index: 900;
+    }
+    
+    .create_content {
+        position:fixed;
+        top:20%;
+        left:30%;
+        transform:'translate(-50%,-50%)';
+        background-color:white;
+        width:40%;
+        height:25%;
+        padding:20px;
+        border-radius: 10px;
+        z-index: 1000;
+    }
+    
+    
+    .create_paragraph {
+        font-size: 25px;
+        color: black;
+    }
+    .create_div {
+        /* background-color: rgb(164, 203, 72); */
+    }
+    
+        
+
+    .button_CreateCancel {
+        padding: 10px 20px;
+        background-color: #0086d6;   
+        border-radius: 4px;
+        color: white;
+    }

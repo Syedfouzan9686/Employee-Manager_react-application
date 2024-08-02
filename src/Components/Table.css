@@ -1,0 +1,81 @@
+.pagination {
+    text-align: right;
+    bottom: 10px;
+    right: 10px;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    /* z-index: 1000;  */
+}
+table {
+    border-radius: 10px;
+    overflow: hidden;
+    border-collapse: collapse;
+    width:90%;
+   
+}
+.tablerow {
+    padding: 10px;
+    border-bottom: 0.5px solid #4d565d;
+   
+}
+th {
+    background-color:#a3b4bc;
+}
+
+th,td {
+    text-align: left;
+    padding: 10px;
+}
+
+
+.employeeTable {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+   
+    
+} 
+tfoot {
+    z-index: 200px;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+
+}
+.MuiTablePagination-root {
+    z-index: 100px;
+}
+   
+
+
+.edit_button {
+    font-size: 15px;
+    background-color: white;
+
+}
+.edit_button:hover {
+    color: rgb(12, 213, 66);
+}
+.view_button {
+    background-color: white;
+}
+.view_button:hover {
+    color: rgb(32, 142, 172);
+    border-radius: 5px;
+}
+.delete_button{
+    border-radius: 5px;
+    background-color: rgb(253, 252, 252);
+    size: 10px;
+}
+
+.delete_button:hover {
+    color: red;
+}
+
+
+

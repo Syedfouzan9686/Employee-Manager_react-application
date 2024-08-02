@@ -1,0 +1,57 @@
+
+.modalcontent {
+    background-color: aqua;
+    text-align: center;
+    justify-content: center;    
+    border: 1px solid;
+    width: 40%;
+    padding: 20px;
+    margin: auto;
+    
+}
+
+.createempform {
+    padding: 10px;
+}
+.labels {
+    margin:left;
+}
+.inputField {
+    border-radius: 4px;
+    border: none;
+    padding: 8px 20px;
+}
+.empiddiv {
+    padding:10px;
+    text-align: left;
+
+}
+.empnamediv {
+    padding:10px;
+    text-align: left;
+}
+.empnumberdiv {
+    padding:10px;
+    text-align: left;
+}
+.empdomaindiv {
+    padding:10px;
+    text-align: left;
+    
+}
+.empdomaininnerdiv {
+    display: flex;
+}
+.empprojectdiv {
+    padding:10px;
+    text-align: left;
+}
+/* .inputField {
+    padding: 20px;
+} */
+
+.Error {
+    color:red;
+}
+
+

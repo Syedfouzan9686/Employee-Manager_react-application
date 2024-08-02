@@ -1,0 +1,199 @@
+.body {
+    background-color: white;
+}
+
+.modal {
+    position: fixed;
+    top: 0%;
+    left: 62%;
+    transform: 'translate(-50%,-50%)';
+    background-color: white;
+    width: 40%;
+    height: 100%;
+    text-align: left;
+    z-index: 1000;
+    flex-grow: 0;
+    overflow-y: scroll;
+    height:auto
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 900;
+}
+
+
+.modalcontent {
+    text-align: center;
+    justify-content: center;
+    border-radius: 4px;
+    width: 100%;
+    padding-bottom: 10px;
+    margin: auto;
+
+
+}
+
+.field_Div {
+    top: 8px;
+    position: relative;
+    text-align: center;
+    padding-left: 10px;
+    padding-bottom: 40px;
+}
+
+.createhd {
+    margin: left;
+    font-size: 20px;
+}
+
+.creatediv {
+    text-align: left;
+    width: 100%;
+    box-shadow: 0 10px 30px white;
+    border-radius: 4px;
+    background-color: white;
+    height: 45px;
+    padding-left: 10px;
+    padding-top: 5px;
+    position: relative;
+    top: 0;
+
+}
+
+.div_start {
+    width: 100%;
+}
+
+.createempform {
+    padding: 8px;
+
+}
+
+.labels {
+    margin: left;
+    color: rgb(13, 13, 13);
+}
+
+.inputField {
+    border-radius: 4px;
+    /* border: none; */
+    padding: 8px 20px;
+
+    padding-top: 10px;
+    width: 80%;
+    border: 1px solid;
+    border-color: rgb(8, 14, 16);
+
+
+}
+
+.inputdiv {
+    padding-top: 10px;
+}
+
+.empiddiv {
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+
+}
+
+.empnamediv {
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+}
+
+.empnumberdiv {
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+}
+
+.empdomaindiv {
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+
+}
+
+.empdomaininnerdiv {
+    display: flex;
+    width: 100%;
+    gap: 20px
+}
+
+.empdomain_inner {
+    padding-top: 10px;
+    display: flex;
+
+}
+
+.empprojectdiv {
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+}
+
+/* .inputField {
+    padding: 20px;
+} */
+
+.Error {
+    color: red;
+}
+
+.dropdown {
+    width: 90%;
+    padding: 4px 20px;
+    font-size: 15px;
+
+}
+
+.dropdownoption {
+    padding-top: 20px;
+    font-size: 15px;
+
+}
+
+.dropdownouter {
+    padding-top: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding: 10px;
+    background-color: #fafafa;
+    position: fixed;
+    bottom: 0;
+    width: 36%;
+
+}
+
+.cancel_button {
+    border: solid 2px;
+    border-color: #0086d6;
+    padding: 8px 24px;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 15px;
+    color: #0086d6;
+}
+
+.save_button {
+
+    padding: 10px 30px;
+    background-color: #0086d6;
+    border-radius: 4px;
+    font-size: 15px;
+    color: white;
+}
