@@ -17,7 +17,7 @@ export default function CreateConfirmation({ CreateModal, CloseCreate }: createp
         <div className='create_overlay'>
             <div className='create_content'>
                 <div className='create_div'>
-                    <p className='create_paragraph'>Record Created Successfully !!</p>
+                    <p className='create_paragraph'>Record Has been Created Successfully !!</p>
                 </div>
 
                 <div className='confirm_button_div'>
