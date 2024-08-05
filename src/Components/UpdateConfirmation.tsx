@@ -20,7 +20,8 @@ export default function UpdateConfirmation({ UpdateModal, CloseModal }: updatepr
             <div className='update_overlay'>
                 <div className='update_content'>
                     <div className='update_div'>
-                        <p className='update_paragraph'>Record Updated Successfully !!</p>
+                        <p className='update_paragraph'>Record has been Updated Successfully !!</p>
+                        <p> changes modified for testing</p>
                     </div>
 
                     <div className='confirm_button_div'>
