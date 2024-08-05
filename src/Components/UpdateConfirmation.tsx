@@ -24,6 +24,7 @@ export default function UpdateConfirmation({ UpdateModal, CloseModal }: updatepr
                         <p> changes modified for testing</p>
                         <p>changes undo</p>
                         <p>conflict</p>
+                        <p>master conflict</p>
                     </div>
 
                     <div className='confirm_button_div'>
