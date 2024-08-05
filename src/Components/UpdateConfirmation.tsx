@@ -23,6 +23,7 @@ export default function UpdateConfirmation({ UpdateModal, CloseModal }: updatepr
                         <p className='update_paragraph'>Record has been Updated Successfully !!</p>
                         <p> changes modified for testing</p>
                         <p>changes added</p>
+                        
                     </div>
 
                     <div className='confirm_button_div'>
